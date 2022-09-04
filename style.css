@@ -15,10 +15,9 @@
 }
 .container{
     background-color: white;
-    padding: 20px;
+    padding:10px 30px;
     border-radius: 20px;
-    height: fit-content;
-    width: fit-content;
+    width: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,16 +28,17 @@ img{
     border-radius: 20px;
     width: 300px;
 }
-.text{
-    font-size: 15px;
-}
 p{
     color:hsl(220, 15%, 55%) ;
-    width: 250px;
     margin: auto;
+    font-size: 15px;
+    font-weight: 400;
 }
-p,h1{
-    padding-bottom: 10px;
+h1{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding: 22px 0 18px;
+    font-size: 22px;
 }
 @media screen and (max-width:400px) {
    .block{ padding: 30px;
