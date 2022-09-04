@@ -15,9 +15,9 @@
 }
 .container{
     background-color: white;
-    padding:10px 30px;
     border-radius: 20px;
     width: 320px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
 }  
 img{
     border-radius: 20px;
-    width: 300px;
+ width: 300px;
 }
 p{
     color:hsl(220, 15%, 55%) ;
